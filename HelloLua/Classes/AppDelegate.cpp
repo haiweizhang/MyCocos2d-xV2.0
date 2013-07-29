@@ -49,6 +49,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     }
 #else
     std::string path = CCFileUtils::fullPathFromRelativePath("hello.lua");
+	printf("path: %s", path.c_str());
     pEngine->addSearchPath(path.substr(0, path.find_last_of("/")).c_str());
     pEngine->executeScriptFile(path.c_str());
 #endif 

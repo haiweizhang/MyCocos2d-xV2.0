@@ -23,10 +23,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testjs", "testjs\proj.win32
 		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6} = {F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestUI.win32", "TestUI\proj.win32\TestUI.win32.vcxproj", "{D6EE0FDD-AB2F-4D4F-A743-8CF1735FD468}"
+EndProject
 Global
-	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
-		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
@@ -68,8 +67,15 @@ Global
 		{D0F06A44-A245-4D13-A498-0120C203B539}.Debug|Win32.Build.0 = Debug|Win32
 		{D0F06A44-A245-4D13-A498-0120C203B539}.Release|Win32.ActiveCfg = Release|Win32
 		{D0F06A44-A245-4D13-A498-0120C203B539}.Release|Win32.Build.0 = Release|Win32
+		{D6EE0FDD-AB2F-4D4F-A743-8CF1735FD468}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6EE0FDD-AB2F-4D4F-A743-8CF1735FD468}.Debug|Win32.Build.0 = Debug|Win32
+		{D6EE0FDD-AB2F-4D4F-A743-8CF1735FD468}.Release|Win32.ActiveCfg = Release|Win32
+		{D6EE0FDD-AB2F-4D4F-A743-8CF1735FD468}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
 	EndGlobalSection
 EndGlobal
